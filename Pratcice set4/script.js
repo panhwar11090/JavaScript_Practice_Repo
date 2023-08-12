@@ -16,3 +16,8 @@ let str1 = "plzz give Rs 1000";
 let amount = Number.parseInt(str1.slice("plzz give Rs ".length));
 console.log(typeof amount);
 console.log(amount);
+
+var a=3;
+var b='3';
+
+console.log(3+a);
