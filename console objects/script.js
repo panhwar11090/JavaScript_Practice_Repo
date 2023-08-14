@@ -24,4 +24,4 @@ while(a<5){
     a++;
 }
 
-console.timeEnd("while loop")
+console.timeEnd("while loop");
