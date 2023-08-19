@@ -1,0 +1,16 @@
+let x = document.getElementsByTagName('span')[0];
+console.log(x);
+let y = document.getElementsByTagName('span')[0];
+console.dir(y);
+console.log(document.body.firstChild.nodeName);
+console.log(document.body.firstElementChild.nodeName);
+let f = document.getElementById('first');
+console.log(f.innerHTML);
+f.innerHTML = "<i>I AM TITLE</i>";
+console.log(f.innerHTML);
+console.log(f.outerHTML);
+f.outerHTML = "<div>hey</div>";
+console.log(f.outerHTML);
+console.log(document.body.firstChild.data);
+console.log(document.body.textContent);
+first.hidden = true;
