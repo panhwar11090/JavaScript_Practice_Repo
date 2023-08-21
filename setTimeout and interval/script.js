@@ -13,18 +13,23 @@ let f = setInterval(() => {
 console.log(f);
 
 
-
-
-
-let a = setTimeout(()=>{
-    alert("i am inside setimout")
-}, 5000)
-
-let b = prompt("Do you want run the settime");
-
+let b = prompt("plzz enter a number");
 if(b == "y"){
-    setTimeout(sum,5000,1,2,7);
+    setInterval(sum,5000,1,2,7);
+}else{
+    alert("dafa hoja");
 }
-else{
-    alert("ouut");
-}
+
+
+// let a = setTimeout(()=>{
+//     alert("i am inside setimout")
+// }, 5000)
+
+// let b = prompt("Do you want run the settime");
+
+// if(b == "y"){
+//     setTimeout(sum,5000,1,2,7);
+// }
+// else{
+//     alert("ouut");
+// }
