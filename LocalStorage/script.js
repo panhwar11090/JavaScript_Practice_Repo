@@ -13,3 +13,9 @@ if (key == "red" || key == "blue") {
 if(key == 0){
     localStorage.clear();
 }
+
+
+window.onstorage = (e)=>{
+    alert("changed");
+    console.log(e);
+}
