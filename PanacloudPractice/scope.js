@@ -30,9 +30,7 @@ if(true){
     // console.log(website)// this will give error
 }
 
-
 /// another concepts with function
-
 console.log(addone(10))
 function addone(num1){
         return num1 +1 
